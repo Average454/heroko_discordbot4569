@@ -6,7 +6,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 intents.message_content = True
 TOKEN = os.environ['TOKEN']
 work_channel = os.environ['work_channel']
-start_channel os.environ['start_channel']
+start_channel = os.environ['start_channel']
 Target_ID = os.environ['Target_ID']
 
 @bot.event
